@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Modul4 KPL\\Modul4_103022400031\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A8B2B48-2F6B-4901-9017-98D53174E4DB}|Modul4_103022400031\\Modul4_103022400031.csproj|d:\\modul4 kpl\\modul4_103022400031\\modul4_103022400031\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A8B2B48-2F6B-4901-9017-98D53174E4DB}|Modul4_103022400031\\Modul4_103022400031.csproj|solutionrelative:modul4_103022400031\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Modul4 KPL\\Modul4_103022400031\\Modul4_103022400031\\Program.cs",
+              "RelativeDocumentMoniker": "Modul4_103022400031\\Program.cs",
+              "ToolTip": "D:\\Modul4 KPL\\Modul4_103022400031\\Modul4_103022400031\\Program.cs",
+              "RelativeToolTip": "Modul4_103022400031\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T23:50:35.925Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
