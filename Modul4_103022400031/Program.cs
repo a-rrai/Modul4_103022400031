@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System;
-using System Collections Generic;
+using System.Data;
+using System.Collections.Generic;
 
 namespace Modul4_103022400031
 {
@@ -29,5 +30,98 @@ namespace Modul4_103022400031
             return "Tidak ada paket";
         }
     }
+
+    public class MesinKopi
+    {
+        public enum CoffeeState { Off, Standby, Brewing, Maintenance };
+
+        private CoffeeState currentState = CoffeeState.Off;
+
+        public void Barista(string kegiatan)
+        {
+            switch (currentState)
+            {
+                case CoffeeState.Off:
+                    if (kegiatan == "PowerOn")
+                    {
+                        currentState = CoffeeState.Standby;
+                        Console.WriteLine("Mesin Off berubah menjadi Standby");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Perubahan state tidak valid");
+                    }
+                break;
+                case CoffeeState.Standby:
+                    if (kegiatan == "StartBrew")
+                    {
+                        currentState = CoffeeState.Brewing;
+                        Console.WriteLine("Mesin Standby berubah menjadi Brewing");
+                    }
+                    else if (kegiatan == "PowerOff")
+                    {
+                        currentState = CoffeeState.Off;
+                        Console.WriteLine("Mesin Standby berubah menjadi Off");
+                    }
+                    else if (kegiatan == "StartMaintenance")
+                    {
+                        currentState = CoffeeState.Maintenance;
+                        Console.WriteLine("Mesin Standby berubah menjadi Maintenance");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Perubahan state tidak valid");
+                    }
+                break;
+                case CoffeeState.Brewing:
+                    if (kegiatan == "FinishBrew")
+                    {
+                        currentState = CoffeeState.Standby;
+                        Console.WriteLine("Mesin Brewing berubah menjadi Standby");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Perubahan state tidak valid");
+                    }
+                break;
+                case CoffeeState.Maintenance:
+                    if (kegiatan == "FinishMaintenance")
+                    {
+                        currentState = CoffeeState.Standby;
+                        Console.WriteLine("Mesin Maintenance berubah menjadi Standby");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Perubahan state tidak valid");
+                    }
+                    break;
+            }
+        }
+        public class Utama
+        {
+            static void Main(string[] args)
+            {
+                Console.WriteLine("==== Paket ====");
+                string nama = "Gaming";
+                Console.WriteLine($"Nama Paket: {nama} | KodePaket: {KodePaket.getKodePaket(nama)}");
+
+                Console.WriteLine();
+
+                Console.WriteLine("==== Cafe Tel-U ====");
+                MesinKopi mesinKopi = new MesinKopi();
+
+                mesinKopi.Barista("PowerOn");
+                mesinKopi.Barista("StartBrew");
+                mesinKopi.Barista("FinishBrew");
+                mesinKopi.Barista("StartMaintenance");
+                mesinKopi.Barista("FinishMaintenance");
+                mesinKopi.Barista("PowerOff");
+                mesinKopi.Barista("Bayar");
+
+                Console.ReadLine();
+            }
+        }
+    }
 }
+
 

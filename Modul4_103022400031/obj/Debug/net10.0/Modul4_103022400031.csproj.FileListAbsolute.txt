@@ -1,0 +1,15 @@
+D:\Modul4 KPL\Modul4_103022400031\Modul4_103022400031\obj\Debug\net10.0\Modul4_103022400031.GeneratedMSBuildEditorConfig.editorconfig
+D:\Modul4 KPL\Modul4_103022400031\Modul4_103022400031\obj\Debug\net10.0\Modul4_103022400031.AssemblyInfoInputs.cache
+D:\Modul4 KPL\Modul4_103022400031\Modul4_103022400031\obj\Debug\net10.0\Modul4_103022400031.AssemblyInfo.cs
+D:\Modul4 KPL\Modul4_103022400031\Modul4_103022400031\obj\Debug\net10.0\Modul4_103022400031.csproj.CoreCompileInputs.cache
+D:\Modul4 KPL\Modul4_103022400031\Modul4_103022400031\obj\Debug\net10.0\Modul4_103022400031.sourcelink.json
+D:\Modul4 KPL\Modul4_103022400031\Modul4_103022400031\bin\Debug\net10.0\Modul4_103022400031.exe
+D:\Modul4 KPL\Modul4_103022400031\Modul4_103022400031\bin\Debug\net10.0\Modul4_103022400031.deps.json
+D:\Modul4 KPL\Modul4_103022400031\Modul4_103022400031\bin\Debug\net10.0\Modul4_103022400031.runtimeconfig.json
+D:\Modul4 KPL\Modul4_103022400031\Modul4_103022400031\bin\Debug\net10.0\Modul4_103022400031.dll
+D:\Modul4 KPL\Modul4_103022400031\Modul4_103022400031\bin\Debug\net10.0\Modul4_103022400031.pdb
+D:\Modul4 KPL\Modul4_103022400031\Modul4_103022400031\obj\Debug\net10.0\Modul4_103022400031.dll
+D:\Modul4 KPL\Modul4_103022400031\Modul4_103022400031\obj\Debug\net10.0\refint\Modul4_103022400031.dll
+D:\Modul4 KPL\Modul4_103022400031\Modul4_103022400031\obj\Debug\net10.0\Modul4_103022400031.pdb
+D:\Modul4 KPL\Modul4_103022400031\Modul4_103022400031\obj\Debug\net10.0\Modul4_103022400031.genruntimeconfig.cache
+D:\Modul4 KPL\Modul4_103022400031\Modul4_103022400031\obj\Debug\net10.0\ref\Modul4_103022400031.dll
